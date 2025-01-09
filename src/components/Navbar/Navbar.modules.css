@@ -1,0 +1,63 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 170px;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 60px;
+  font-size: 20px;
+}
+
+.nav-menu li {
+  position: relative;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.nav-menu li::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(267deg, #DA7C25 0.36%, #8923E1 102.6%);
+  transition: width 0.3s;
+}
+
+.nav-menu li:hover::after {
+  width: 100%;
+}
+
+.nav-menu li:hover {
+  color: #DA7C25;
+}
+
+.nav-connect {
+  padding: 20px 40px;
+  border-radius: 50px;
+  background: linear-gradient(267deg, #DA7C25 0.36%, #8923E1 102.6%);
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.nav-connect:hover {
+  transform: scale(1.05);
+}
+
+.nav-link {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s;
+}
+
+.nav-link.active {
+  color: #DA7C25; /* Highlight active section */
+}
+
