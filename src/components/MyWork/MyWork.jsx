@@ -5,7 +5,7 @@ const MyWork = () => {
   const projects = [
     { title: 'Project 1: Portfolio ', description: 'A personal portfolio using reactjs', link: 'https://mohith-dev.vercel.app/' },
     { title: 'Project 2:Task Manager', description: 'Task Manager using react and mongodb', link: 'https://taskerflow.vercel.app/' },
-    { title: 'Project 3', description: 'Description for project 3', link: '#' },
+    { title: 'Project 3:Project Raksha', description: 'A prototype web application created to help people', link: 'https://raksha-project-beta.vercel.app/dashboard.html' },
     { title: 'Project 4', description: 'Description for project 4', link: '#' },
   ];
 
