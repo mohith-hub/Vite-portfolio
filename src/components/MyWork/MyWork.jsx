@@ -3,8 +3,8 @@ import './MyWork.css';
 
 const MyWork = () => {
   const projects = [
-    { title: 'Project 1: Portfolio using reactjs', description: 'Description for project 1', link: '#' },
-    { title: 'Project 2', description: 'Description for project 2', link: '#' },
+    { title: 'Project 1: Portfolio ', description: 'A personal portfolio using reactjs', link: 'https://mohith-dev.vercel.app/' },
+    { title: 'Project 2:Task Manager', description: 'Task Manager using react and mongodb', link: 'https://taskerflow.vercel.app/' },
     { title: 'Project 3', description: 'Description for project 3', link: '#' },
     { title: 'Project 4', description: 'Description for project 4', link: '#' },
   ];
