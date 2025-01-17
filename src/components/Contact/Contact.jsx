@@ -19,7 +19,7 @@ const Contact = () => {
                <img src={mail_icon}/><a href='mailto:mohithpupppala@gmail.com'>mohithpupppala@gmail.com</a>
             </div>
             <div className='contact-detail'>
-            <img src={call_icon}/><p>+91 8367028310</p>
+            <img src={call_icon}/><p>+91 **********</p>
             </div>
             <div className='contact-detail'>
               <img src={location_icon}/><p>Vizag,India</p>
